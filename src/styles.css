@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    /* Colors */
+    --clr-pink-200:  hsl(333, 80%, 67%);
+    --clr-pink-900: hsl(300, 43%, 22%);
+    --clr-pink-grayish-500: hsl(303, 10%, 53%);
+    --clr-pink-grayish-100: hsl(300, 24%, 96%);
+
+    /* Font */
+    --font: 'League Spartan', sans-serif;
+    --font-sm: 15px;
+    --font-rg: 400;
+    --font-md: 500;
+    --font-bold: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html, 
+body {
+    font-family: var(--font);
+    font-weight: var(--font-rg);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: var(--font-bold);
+}
+
+p {
+    font-size: var(--font-sm);
+    font-weight: var(--font-md);
+}
+
+li {
+    list-style: none;
+}
+
+.socialproof {
+    background: url(../public/images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
