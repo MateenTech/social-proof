@@ -47,9 +47,3 @@ p {
 li {
     list-style: none;
 }
-
-.socialproof {
-    background: url(../public/images/bg-pattern-top-mobile.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
